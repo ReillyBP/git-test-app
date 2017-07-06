@@ -1,7 +1,7 @@
 class DealsController < ApplicationController
 
-  def index
-    render "index.html.erb"
+  def show
+    render "show.html.erb"
   end
   
 end
